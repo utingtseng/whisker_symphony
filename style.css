@@ -1,0 +1,64 @@
+html {
+  font-size: 10px;
+  background: url('./gate.jpg');
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #08283b;
+  font-size: 50px;
+  font-family: century-gothic, sans-serif;
+  text-shadow: 0 0 .5rem rgb(40, 59, 68);
+  font-weight: normal;
+  letter-spacing: -3.5px;
+  text-align: center;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 25vh;
+  align-items: center;
+  justify-content: center;
+  bottom:0;
+}
+
+.key {
+  border: .4rem solid black;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  transition: all .07s ease;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  background-size: contain;
+  text-shadow: 0 0 .5rem rgb(182, 180, 176);
+  text-align: initial;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  text-align: initial;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
